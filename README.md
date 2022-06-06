@@ -1,2 +1,2 @@
 
-https://Mclik.github.io/rsschool-cv/cv
+https://mclik.github.io/rsschool-cv/
