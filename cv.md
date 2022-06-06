@@ -10,4 +10,4 @@ I live in the village of Leskovka near Minsk. The Republic of Belarus. I am inte
 ## Education
 + Minsk Automobile Mechanics College 1998-2001.
 + Self-examination.
-*** 7777
+***
