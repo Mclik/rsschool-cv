@@ -14,9 +14,9 @@ I live in the village of Leskovka near Minsk. The Republic of Belarus. I am inte
 ## Work experience
 + Not eat.
 ***
-
-
 ## Hard-skills
 + HTML5
 + CSS3
 ***
+
+
