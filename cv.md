@@ -18,5 +18,16 @@ I live in the village of Leskovka near Minsk. The Republic of Belarus. I am inte
 + HTML5
 + CSS3
 ***
-
-
+## Code snippet
+```
+Function multiply (a, b) {
+Return a * b;
+}
+```
+***
+## Soft-skills
++ I know how to work in them.
++ Executive and friends with time.
+***
+## English
++ A1+
