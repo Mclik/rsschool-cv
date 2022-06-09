@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+  }
+.body {
+	font-family: Joan;
+  src: url("https://fonts.google.com/specimen/Joan#standard-styles");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+.me {
+	height: 300px;
+}
+.logo {
+	height: 30px;
+}
+.footer {
+
+  
+}
