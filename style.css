@@ -1,1 +1,110 @@
-555
+* {
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+a {
+    color: #4d2323;
+    text-decoration: none;
+  }
+
+.body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Quando', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+}
+
+.main,
+.header {
+    cursor: default;
+}
+
+.nav-list {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  padding: 0 10px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.nav-list,.cv {
+  list-style: none;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  text-align: center;
+}
+
+.me {
+    display: block;
+    margin: 0 auto;
+	height: 300px;
+    border-radius: 100%;
+}
+
+.logo {
+	height: 30px;
+}
+
+.my-photo {
+ width: 600px;
+ margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item a:hover,
+.nav-item a:focus,
+.footer a:hover,
+.footer a:focus {
+    transition: 1s;
+    color: red;
+}
+
+.c1 {
+    color: purple;
+}
+
+.c2 {
+    color: blue;
+}
+
+.c3 {
+    color: orange;
+}
