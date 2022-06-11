@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Business card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="body">
     <header class="header">
-        <img class="me" src="D:/RS/rsschool-cv/img/me1.jpg" alt="my photo">
-        <h1 class="header">Alexandr Makarchik</h1>
         <div class="container"></div>
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#About myself" class="nav-link">About myself</a></li>
-                <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#Work experience" class="nav-link">Work experience</a></li>
-                <li class="nav-item"><a href="#Hard-skills" class="nav-link">Hard-skills</a></li>
-                <li class="nav-item"><a href="#Soft-skills" class="nav-link">Soft-skills</a></li>
-                <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
-                <li class="nav-item"><a href="#Code snippet" class="nav-link">Code snippet</a></li>
+                <li class="nav-item"><a href="#about-myself" class="nav-link">About myself</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#work-experience" class="nav-link">Work experience</a></li>
+                <li class="nav-item"><a href="#hard-skills" class="nav-link">Hard-skills</a></li>
+                <li class="nav-item"><a href="#soft-skills" class="nav-link">Soft-skills</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                <li class="nav-item"><a href="#code-snippet" class="nav-link">Code snippet</a></li>
             </ul>
         </nav>
+    <section class="my-photo">
+        <img class="me" src="D:/RS/rsschool-cv/img/me1.jpg" alt="my photo">
+        <h1 class="header">Alexandr Makarchik</h1>
+    </section>
     </header>
-    <main class="main">
+    <main class="main main-container">
+    <section class="section">
         <h2 id="contacts">Contacts</h2>
         <ul class="cv">
             <li>E-mail: Mclik@tut.by</li>
             <li>GitHub: github.com/Mclik</li>
         </ul>
-        <h2 id="About myself">About myself</h2>
+    </section>
+    <section class="section">
+        <h2 id="about-myself">About myself</h2>
         <ul class="cv">
             <li>I live in the village of Leskovka near Minsk. The Republic of Belarus.</li>
             <li>I am interested in new technologies.</li>
@@ -37,42 +45,54 @@
             <li>My hobby is kayaking.</li>
             <li>At the moment I work in a hardware store and study at RSSchool</li>
         </ul>
-        <h2 id="Education">Education</h2>
+    </section>
+    <section class="section">
+        <h2 id="education">Education</h2>
         <ul class="cv">
             <li>Minsk Automobile Mechanics College 1998-2001.</li>
             <li>Self - examination.</li>
         </ul>
-        <h2 id="Work experience">Work experience</h2>
+    </section>
+    <section class="section">
+        <h2 id="work-experience">Work experience</h2>
         <ul class="cv">
             <li>Not eat.</li>
         </ul>
-        <h2 id="Hard-skills">Hard-skills</h2>
+    </section>
+    <section class="section">
+        <h2 id="hard-skills">Hard-skills</h2>
         <ul class="cv">
             <li>HTMLS</li>
             <li>CSS3</li>
         </ul>
-        <h2 id="Soft-skills">Soft-skills</h2>
+    </section>
+    <section class="section">
+        <h2 id="soft-skills">Soft-skills</h2>
         <ul class="cv">
             <li>I know how to work in a team.</li>
             <li>Executive and friends with time.</li>
         </ul>
-        <h2 id="English">English</h2>
+    </section>
+    <section class="section">
+        <h2 id="english">English</h2>
         <ul class="cv">
             <li>A1+</li>
         </ul>
-        <h2 id="Code snippet">Code snippet</h2>
+    </section>
+    <section class="section">
+        <h2 id="code-snippet">Code snippet</h2>
         <pre>
-         function multiply(a, b) {
-          return a * b;
-        };   
+<span class="c1">function</span> <span class="c2">multiply</span>(<span class="c3">a</span>, <span class="c3">b</span>) {
+    <span class="c1">return</span> a <span class="c3">*</span> b;
+};   
         </pre>
+    </section>
     <div class="container"></div>
     </main>
     <footer class="footer">
-        <a href="https://github.com/Mclik">My GitHub</a>
+        <a href="https://github.com/Mclik" class="github">My GitHub</a>
         <img class="logo" src="D:/RS/rsschool-cv/img/rs_school_js.svg" alt="course logo">
-        <a href="https://rs.school/js/">RSSchool</a>
-        <div class="container"></div>
+        <a href="https://rs.school/js/" class="rsschool">RSSchool</a>
     </footer>
 </body>
 </html>
